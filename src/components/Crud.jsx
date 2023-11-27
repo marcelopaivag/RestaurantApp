@@ -37,9 +37,9 @@ export const Crud = () => {
   return (
     <>
       <Container>
-        <h1>Reserva tu cita</h1>
+        <h1>Reserva tu mesa</h1>
         <ul>
-          <li>Ingresa tus datos personales, fecha y hora de tu cita.</li>
+          <li>Ingresa tus datos personales, fecha y hora de tu visita.</li>
           <li>Pronto recibirás la confirmación por correo electrónico.</li>
           <li>En el caso de no poder asistir también puedes cancelar tu hora.</li>
         </ul>

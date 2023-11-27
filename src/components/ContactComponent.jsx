@@ -13,7 +13,7 @@ export const ContactComponent = () => {
                 <Row>
                     <Col>
                         <ul className="list-unstyled">
-                            <li>Av. Las Condes #12523 - Local 1B. Las Condes - Santiago.</li>
+                            <li>Av. Las Condes #12223523 - Local 1B. Las Condes - Santiago.</li>
                             <li>Teléfono: +56 9 123 45 678</li>
                             <li>Correo electrónico: contacto@contacto.cl</li>
                         </ul>

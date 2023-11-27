@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import images from '../assets/images';
 
 export const Jumbotron = () => {
     return (
@@ -7,37 +6,37 @@ export const Jumbotron = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={images.fondo}
+                    src='https://res.cloudinary.com/dbteftlej/image/upload/v1701100987/2_bvfl2n.jpg'
                     alt="First slide"
                     height={800}
                 />
                 <Carousel.Caption className='badge bg-dark text-wrap'>
-                    <h2>Kinesiología</h2>
-                    <h6>Para aliviar el dolor, optimizar la recuperación y mejorar el rendimiento.</h6>
+                    <h2>Expertos en Ramen</h2>
+                    <h6>Ven y deleitate con la gastronomia japonesa.</h6>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={images.tr}
+                    src='https://res.cloudinary.com/dbteftlej/image/upload/v1701100986/1_n2ljdh.jpg'
                     alt="Second slide"
                     height={800}
                 />
                 <Carousel.Caption className='badge bg-dark text-wrap'>
-                    <h2>Fisioterapia</h2>
-                    <h6>Tecnología de punta al servicio de tu recuperación.</h6>
+                    <h2>Bad Bones</h2>
+                    <h6>Ramen Factory.</h6>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src={images.tr2}
+                    src='https://res.cloudinary.com/dbteftlej/image/upload/v1701100977/7_uuiil6.jpg'
                     alt="Third slide"
                     height={800}
                 />
                 <Carousel.Caption className='badge bg-dark text-wrap'>
-                    <h2>Osteopatía</h2>
-                    <h6>El cuerpo dispone de todos los mecanismos para la curación, sólo hay que ayudarle a restablecer la función normal.</h6>
+                    <h2>RamenManía</h2>
+                    <h6>El ramen es un plato japonés de fideos que ha ganado popularidad en todo el mundo.</h6>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

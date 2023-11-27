@@ -1,12 +1,10 @@
 import React from 'react'
-import { ServicesComp } from '../components/ServicesComp'
-import { PropComp } from '../components/PropComp'
+import CatalogoPlatos from '../components/CatalogoPlatos'
 
 export const Services = () => {
   return (
     <>
-    <ServicesComp />
-    <PropComp />
+    <CatalogoPlatos />
     </>
   )
 }
