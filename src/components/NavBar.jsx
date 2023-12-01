@@ -11,13 +11,13 @@ export const NavBar = () => {
           src='https://res.cloudinary.com/dbteftlej/image/upload/v1701101583/13_ezgfov.png'
           height={150} />
         <Container>
-          <Navbar.Brand as={Link} to='/react-app/'>Bad Bones Ramen</Navbar.Brand>
+          <Navbar.Brand as={Link} to='/RestaurantApp/'>Bad Bones Ramen</Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to='/react-app/'>Inicio</Nav.Link>
-            <Nav.Link as={Link} to='/react-app/services'>Carta</Nav.Link>
-            <Nav.Link as={Link} to='/react-app/bookings'>Reservas</Nav.Link>
-            <Nav.Link as={Link} to='/react-app/contact'>Contacto</Nav.Link>
-            <Nav.Link as={Link} to='/react-app/blog'>Blog</Nav.Link>
+            <Nav.Link as={Link} to='/RestaurantApp/'>Inicio</Nav.Link>
+            <Nav.Link as={Link} to='/RestaurantApp/menu'>Carta</Nav.Link>
+            <Nav.Link as={Link} to='/RestaurantApp/bookings'>Reservas</Nav.Link>
+            <Nav.Link as={Link} to='/RestaurantApp/contact'>Contacto</Nav.Link>
+            <Nav.Link as={Link} to='/RestaurantApp/blog'>Blog</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

@@ -1,4 +1,4 @@
-const japDishes = [
+const dishes = [
   {
     id: 1,
     title: 'Sushi de Salmón',
@@ -71,4 +71,4 @@ const japDishes = [
   }
 ];
 
-export default japDishes;
+export default dishes;

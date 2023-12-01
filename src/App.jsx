@@ -6,8 +6,8 @@ import { Blog } from "./pages/Blog"
 import { Footer } from "./components/Footer"
 import { Contact } from "./pages/Contact"
 import '../src/App.css'
-import CatalogoPlatos from "./components/CatalogoPlatos"
-import PaginaPlatoIndividual from "./components/Platoindividualcomp"
+import { Menu } from "./pages/Menu"
+import { MenuDetail } from "./pages/MenuDetail"
 
 function App() {
 
@@ -15,12 +15,12 @@ function App() {
     <>
     <NavBar />
     <Routes>
-      <Route path="/react-app/" element={<Home />} />
-      <Route path="/react-app/services" element={<CatalogoPlatos />} />
-      <Route path="/react-app//services/:id" element={<PaginaPlatoIndividual />} />
-      <Route path="/react-app/bookings" element={<Bookings />} />
-      <Route path="/react-app/contact" element={<Contact />} />
-      <Route path="/react-app/blog" element={<Blog />} />
+      <Route path="/RestaurantApp/" element={<Home />} />
+      <Route path="/RestaurantApp/menu" element={<Menu />} />
+      <Route path="/RestaurantApp/menu/:id" element={<MenuDetail />} />
+      <Route path="/RestaurantApp/bookings" element={<Bookings />} />
+      <Route path="/RestaurantApp/contact" element={<Contact />} />
+      <Route path="/RestaurantApp/blog" element={<Blog />} />
     </Routes>
     <Footer />
     </>
