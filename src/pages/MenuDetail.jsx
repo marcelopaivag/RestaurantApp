@@ -1,8 +1,8 @@
 import React from 'react'
-import { Dish } from '../components/Dish'
+import DishDetail from '../components/DishDet'
 
 export const MenuDetail = () => {
   return (
-    <Dish />
+    <DishDetail />
   )
 }
